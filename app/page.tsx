@@ -8,6 +8,7 @@ export default function Home() {
       <h1>Home</h1>
       <p>Type <Link href={"/dashboard/settings"}>/dasboard/settings</Link> for simple route</p>
       <p>Type <Link href={"/about"}>/(marketing)/about</Link> for Organize routes without affecting the URL path</p>
+      <p>Go to Post page with Params <Link href={"/post/2"}>/post/id</Link> for Organize routes with params</p>
     </main>
   )
 }
